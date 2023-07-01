@@ -1,0 +1,127 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 250px 400px;
+    grid-template-rows: 270px;
+    align-items: start;
+    gap: 20px;
+    width: 800px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    font-family: 'Lato', sans-serif;
+        
+}
+
+.add-item-div{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap:10px
+    
+}
+
+.add-item-input {
+    height: 25px;
+    width: 200px;
+    border-radius: 8px;
+    border: 1px solid black;
+    font-family: 'Lato',
+        sans-serif;
+}
+
+
+.add-item-btn{
+    display: block;
+    border: none;
+    width: 60px;
+    background-color: rgb(255, 196, 0);
+    align-self: center;
+    padding:6px 12px;
+    border-radius: 8px;
+  
+}
+
+
+
+.add-btn{
+    align-self: center;
+}
+
+.item-box{
+    display: flex;
+    justify-content: space-between;
+   
+    gap: 10px;
+    width: 250px;
+    padding:5px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid rgb(255, 196, 0);
+}
+
+.person-name{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.person-balance{
+    font-size: 12px;
+}
+h4{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-box{
+    padding: 0 20px;
+    width:400px;
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    gap:15px;
+
+}
+.form-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-input{
+    height: 25px;
+    border-radius: 2px;
+    border: 1px solid black;
+    width:100px;
+}
+
+.form-item-btn{
+   align-self: center;
+}
+
+.split-btn{
+    display: block;
+    width: 80px;
+}
+
+.add-bill:focus,.add-my-expense:focus,.select-frnd:focus,.add-name:focus{
+    border: none;
+    outline: 2px solid rgb(255, 196, 0);
+}
+
+.no-frnds{
+    align-self: flex-start;
+    text-align: center;
+    font-size: 24px;
+    font-family: 600;
+}
